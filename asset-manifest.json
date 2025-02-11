@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GovindRoG7/traffic-management-project/static/css/main.63958bf5.css",
-    "main.js": "/GovindRoG7/traffic-management-project/static/js/main.2e36f9a4.js",
-    "static/js/373.7c37a588.chunk.js": "/GovindRoG7/traffic-management-project/static/js/373.7c37a588.chunk.js",
-    "index.html": "/GovindRoG7/traffic-management-project/index.html",
-    "main.63958bf5.css.map": "/GovindRoG7/traffic-management-project/static/css/main.63958bf5.css.map",
-    "main.2e36f9a4.js.map": "/GovindRoG7/traffic-management-project/static/js/main.2e36f9a4.js.map",
-    "373.7c37a588.chunk.js.map": "/GovindRoG7/traffic-management-project/static/js/373.7c37a588.chunk.js.map"
+    "main.css": "/traffic-management-project/static/css/main.63958bf5.css",
+    "main.js": "/traffic-management-project/static/js/main.886ea4ed.js",
+    "static/js/373.7c37a588.chunk.js": "/traffic-management-project/static/js/373.7c37a588.chunk.js",
+    "index.html": "/traffic-management-project/index.html",
+    "main.63958bf5.css.map": "/traffic-management-project/static/css/main.63958bf5.css.map",
+    "main.886ea4ed.js.map": "/traffic-management-project/static/js/main.886ea4ed.js.map",
+    "373.7c37a588.chunk.js.map": "/traffic-management-project/static/js/373.7c37a588.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.63958bf5.css",
-    "static/js/main.2e36f9a4.js"
+    "static/js/main.886ea4ed.js"
   ]
 }
