@@ -9,7 +9,7 @@ const Map = ({ vehicleData , selectedRoad}) => {
   const [isRunning, setIsRunning] = useState(false);
 
   // memorize the function , rerun only when dependencies change
-  const vehicleAnimated = useMemo(() => transformVehicleData(vehicleData, selectedRoad), [vehicleData]);
+  const vehicleAnimated = useMemo(() => transformVehicleData(vehicleData, selectedRoad), [vehicleData,selectedRoad]);
 
   useEffect(() => {
     if (!vehicleData || vehicleData.length === 0) return;
@@ -22,7 +22,7 @@ const Map = ({ vehicleData , selectedRoad}) => {
     }, 1000); // Move to next timestamp every second
 
     return () => clearInterval(interval);
-  }, [isRunning, vehicleData]);
+  }, [isRunning, vehicleData,vehicleAnimated.length]);
 
   const handleToggle = () => {
     setIsRunning((prev) => !prev); // Toggle between running and paused

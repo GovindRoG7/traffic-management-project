@@ -217,7 +217,14 @@ const initData =[
   {"road_name": "rajpath", "bus": 0, "bicycle": 0, "Auto": 3, "car": 0, "truck": 0, "detection_time": 1739305574, "motorcycle": 0},
   {"road_name": "rajpath", "bus": 0, "bicycle": 4, "Auto": 6, "car": 1, "truck": 0, "detection_time": 1739305579, "motorcycle": 0},
   {"road_name": "rajpath", "bus": 0, "bicycle": 5, "Auto": 11, "car": 1, "truck": 0, "detection_time": 1739305584, "motorcycle": 0}, 
-  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 0, "truck": 0, "detection_time": 1739305588, "motorcycle": 0}
+  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 1, "truck": 0, "detection_time": 1739305598, "motorcycle": 0},
+  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 1, "truck": 0, "detection_time": 1739305608, "motorcycle": 0},
+  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 1, "truck": 0, "detection_time": 1739305612, "motorcycle": 0},
+  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 1, "truck": 0, "detection_time": 1739305616, "motorcycle": 0},
+  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 1, "truck": 0, "detection_time": 1739305620, "motorcycle": 0},
+  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 1, "truck": 0, "detection_time": 1739305626, "motorcycle": 0},
+  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 1, "truck": 0, "detection_time": 1739305630, "motorcycle": 0},
+  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 1, "truck": 0, "detection_time": 1739305639, "motorcycle": 0},
   ];
 
 const initConfig = ["palayam",1739305574000,1739305588000];
