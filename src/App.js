@@ -10,7 +10,7 @@ import WorkInProgress from "./components/workInProgress";
 const App = () => {
   const [data, setData] = useState(initData);
   const [loading, setLoading] = useState(false);
-  const [selectedRoad, setSelectedRoad] = useState("palayam");
+  const [selectedRoad, setSelectedRoad] = useState("rajpath");
   const endpoint = process.env.REACT_APP_API_ENDPOINT;
 
   const fetchTrafficData = async (road, startUnix, endUnix) => {

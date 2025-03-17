@@ -212,96 +212,23 @@ const roadCenter = { "rajpath" : [11.320747, 75.933407],
                     "palayam":  [11.248948, 75.783888],
                     "highway": [11.210638, 75.861173]
 };
-  
-// expected response from the server
+
 const initData =[
-  {
-    "road_name": "palayam",
-    "detection_time": 1739305574,
-    "car": {
-      "V101": {"cx": 170, "cy": 180},
-      "V102": {"cx": 360, "cy": 410},
-      "V103": {"cx": 570, "cy": 580},
-      "V104": {"cx": 573, "cy": 583}
-    },
-    "bus": {
-      "B106": {"cx": 650, "cy": 700},
-      "B107": {"cx": 770, "cy": 820}
-    },
-    "Auto": {
-      "T104": {"cx": 250, "cy": 300},
-      "T105": {"cx": 470, "cy": 520}
-    },
-    "motorcycle": {
-      "BK108": {"cx": 200, "cy": 230},
-      "BK109": {"cx": 380, "cy": 420}
-    },
-    "truck": {
-      "VAN110": {"cx": 550, "cy": 600},
-      "VAN111": {"cx": 800, "cy": 850}
-    },
-    "bicycle": {
-      "J112": {"cx": 300, "cy": 350},
-      "J113": {"cx": 530, "cy": 580}
-    }
-  },
-  {
-    "road_name": "palayam",
-    "detection_time": 1739305674,
-    "car": {
-      "V201": {"cx": 190, "cy": 200},
-      "V202": {"cx": 380, "cy": 430}
-    },
-    "bus": {
-      "B206": {"cx": 670, "cy": 720}
-    },
-    "Auto": {
-      "T204": {"cx": 270, "cy": 320}
-    },
-    "motorcycle": {
-      "BK208": {"cx": 230, "cy": 260}
-    },
-    "truck": {
-      "VAN210": {"cx": 580, "cy": 630}
-    },
-    "bicycle": {
-      "J212": {"cx": 320, "cy": 370}
-    }
-  },
-  {
-    "road_name": "palayam",
-    "detection_time": 1739305774,
-    "car": {
-      "V301": {"cx": 210, "cy": 220}
-    },
-    "bus": {
-      "B306": {"cx": 690, "cy": 740}
-    },
-    "Auto": {
-      "T304": {"cx": 290, "cy": 340}
-    },
-    "motorcycle": {
-      "BK308": {"cx": 250, "cy": 280}
-    },
-    "truck": {
-      "VAN310": {"cx": 600, "cy": 650}
-    },
-    "bicycle": {
-      "J312": {"cx": 340, "cy": 390}
-    }
-  }
-]
-;
+  {"road_name": "rajpath", "bus": 0, "bicycle": 0, "Auto": 3, "car": 0, "truck": 0, "detection_time": 1739305574, "motorcycle": 0},
+  {"road_name": "rajpath", "bus": 0, "bicycle": 4, "Auto": 6, "car": 1, "truck": 0, "detection_time": 1739305579, "motorcycle": 0},
+  {"road_name": "rajpath", "bus": 0, "bicycle": 5, "Auto": 11, "car": 1, "truck": 0, "detection_time": 1739305584, "motorcycle": 0}, 
+  {"road_name": "rajpath", "bus": 2, "bicycle": 2, "Auto": 16, "car": 0, "truck": 0, "detection_time": 1739305588, "motorcycle": 0}
+  ];
 
 const initConfig = ["palayam",1739305574000,1739305588000];
 
   const vehicleColors = {
     car: { color: "red", size: 4 },
-    motorcycle: { color: "blue", size: 4 },
-    Auto: { color: "green", size: 4 },
-    bus: { color: "orange", size: 4 },
-    bicycle: { color: "blue", size: 4 },
-    truck: { color: "orange", size: 4 },
+    motorcycle: { color: "blue", size: 2 },
+    Auto: { color: "green", size: 3 },
+    bus: { color: "orange", size: 5 },
+    bicycle: { color: "blue", size: 2 },
+    truck: { color: "orange", size: 5 },
   };
 
 
